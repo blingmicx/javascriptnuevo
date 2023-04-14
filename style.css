@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(252, 237, 255);
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  max-width: 330px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+form {
+  width: 100%;
+  max-width: 330px;
+  margin: auto;
+}
+
+.card-style {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(233, 215, 250);
+}
+
+.card img {
+  width: 400px;
+  height: 280px;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card h2 {
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px;
+  padding-left: 100px;
+}
+
+#card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.card button {
+  padding: 25px;
+  margin: 10px;
+  margin-left: 120px;
+}
+
+ 
