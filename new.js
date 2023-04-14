@@ -71,7 +71,7 @@ function showTurnosDisponibles(turnos) {
             } else {
                 Swal.fire({
                     title: "Error",
-                    text: "Debes seleccionar un turno para confirmar.",
+                    text: "Tenes que seleccionar un turno para confirmar.",
                     icon: "error",
                     confirmButtonText: "Cerrar",
                     customClass: {
